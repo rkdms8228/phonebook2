@@ -40,7 +40,7 @@
 		</tr>
 		<tr>
 			<td>
-				<a href="./updateForm.jsp?personId=<%=phoneList.get(i).getPersonId()%>">[수정]</a>
+				<a href="./pbc?action=updateForm&personId=<%=phoneList.get(i).getPersonId()%>">[수정]</a>
 			</td>
 			
 			<td>
