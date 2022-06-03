@@ -136,7 +136,7 @@ public class PhoneController extends HttpServlet {
 			
 			//phoneDao.personInsert()를 통해 저장하기
 			PhoneDao phoneDao = new PhoneDao();
-			int count = phoneDao.personInsert(phoneVo);
+			int count = phoneDao.personUpdate(phoneVo);
 			System.out.println(count);
 			
 			//리다이렉트 list
